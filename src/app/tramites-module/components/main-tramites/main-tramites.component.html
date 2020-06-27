@@ -1,0 +1,28 @@
+<div class="container-fluid">
+    <h3>{{title}}</h3>
+    <div class="row">
+        <div class="col-2">
+            <ul class="nav nav-pills flex-column">
+                <li class="nav-item" role="presentation" [routerLinkActive]="['active']">
+                    <a class="nav-link" [routerLink]="['inscripcion-bte']" [routerLinkActive]="['active']">Inscripcion
+                        BTE</a>
+                </li>
+                <li class="nav-item" role="presentation" [routerLinkActive]="['active']">
+                    <a class="nav-link" [routerLink]="['inscripcion-colectivo']"
+                        [routerLinkActive]="['active']">Inscripcion Colectivo</a>
+                </li>
+                <li class="nav-item" role="presentation" [routerLinkActive]="['active']">
+                    <a class="nav-link" [routerLink]="['reemplazo-btec']" [routerLinkActive]="['active']">Reemplazo
+                        BTEC</a>
+                </li>
+                <li class="nav-item" role="presentation" [routerLinkActive]="['active']">
+                    <a class="nav-link" [routerLink]="['inscripcion-buses']" [routerLinkActive]="['active']">Inscripción
+                        Buses</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-10">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</div>
