@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-ingreso-patentes',
+  selector: 'ingreso-patentes',
   templateUrl: './ingreso-patentes.component.html',
   styleUrls: ['./ingreso-patentes.component.css']
 })

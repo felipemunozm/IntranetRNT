@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-reemplazo-btec',
+  selector: 'reemplazo-btec',
   templateUrl: './reemplazo-btec.component.html',
   styleUrls: ['./reemplazo-btec.component.css']
 })

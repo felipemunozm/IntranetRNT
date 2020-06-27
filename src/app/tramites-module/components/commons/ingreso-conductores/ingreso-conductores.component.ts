@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-ingreso-conductores',
+  selector: 'ingreso-conductores',
   templateUrl: './ingreso-conductores.component.html',
   styleUrls: ['./ingreso-conductores.component.css']
 })

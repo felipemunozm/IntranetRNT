@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-incripcion-colectivo',
+  selector: 'inscripcion-colectivo',
   templateUrl: './incripcion-colectivo.component.html',
   styleUrls: ['./incripcion-colectivo.component.css']
 })

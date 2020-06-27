@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-ingreso-flota',
+  selector: 'ingreso-flota',
   templateUrl: './ingreso-flota.component.html',
   styleUrls: ['./ingreso-flota.component.css']
 })
