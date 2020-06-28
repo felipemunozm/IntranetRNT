@@ -6,12 +6,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MenuHeaderComponent } from './components/menu-header/menu-header.component';
 import { HomeModuleModule } from './home-module/home-module.module'
-import { TramitesModuleModule } from './tramites-module/tramites-module.module'
+import { TramitesModuleModule } from './tramites-module/tramites-module.module';
+import { ErrorComponent } from './components/error/error.component'
 
 @NgModule({
   declarations: [
     AppComponent,
-    MenuHeaderComponent
+    MenuHeaderComponent,
+    ErrorComponent
   ],
   imports: [
     BrowserModule,
