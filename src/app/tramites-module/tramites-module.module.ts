@@ -13,11 +13,12 @@ import { IngresoPersonasComponent } from './components/commons/ingreso-personas/
 import { IngresoFlotaComponent } from './components/commons/ingreso-flota/ingreso-flota.component';
 import { IngresoConductoresComponent } from './components/commons/ingreso-conductores/ingreso-conductores.component';
 import { IngresoAdultosComponent } from './components/commons/ingreso-adultos/ingreso-adultos.component';
+import { IngresoSolicitanteComponent } from './components/commons/ingreso-solicitante/ingreso-solicitante.component';
 
 
 
 @NgModule({
-  declarations: [MainTramitesComponent, IncripcionBteComponent, IncripcionColectivoComponent, ReemplazoBtecComponent, InscripcionBusesComponent, ValidarPersonaServicioComponent, IngresoPatentesComponent, IngresoPersonasComponent, IngresoFlotaComponent, IngresoConductoresComponent, IngresoAdultosComponent],
+  declarations: [MainTramitesComponent, IncripcionBteComponent, IncripcionColectivoComponent, ReemplazoBtecComponent, InscripcionBusesComponent, ValidarPersonaServicioComponent, IngresoPatentesComponent, IngresoPersonasComponent, IngresoFlotaComponent, IngresoConductoresComponent, IngresoAdultosComponent, IngresoSolicitanteComponent],
   imports: [
     FormsModule,
     TramitesRoutingModule,

@@ -1,0 +1,55 @@
+<div class="container-fluid mx-auto">
+    <form>
+        <div class="form-group">
+            <label for="name">Nombre</label>
+            <input type="text" name="name" #name="ngModel" [(ngModel)]="solicitante.name" class="form-control"
+                required />
+            <span *ngIf="!name.valid && name.touched">El nombre es obligatorio</span>
+        </div>
+        <div class="form-group">
+            <label for="">R.U.N.</label>
+            <input type="text" name="surname" #surname='ngModel' [(ngModel)]="solicitante.run" class="form-control"
+                required />
+            <span *ngIf="!surname.valid && surname.touched">El apelldo es obligatorio</span>
+        </div>
+        <div class="form-group">
+            <label for="">Correo electrónico</label>
+            <input type="text" name="email" #email="ngModel" [(ngModel)]="solicitante.email" class="form-control"
+                required />
+            <span *ngIf="!email.valid && email.touched">El email es obligatorio</span>
+        </div>
+        <hr />
+        <h3>SUJETO DEL TRAMITE</h3>
+        <hr />
+        <div class="form-group">
+            <label for="region">Región de Inscripción</label>
+            <select id="region" class="custom-select" style="margin-left: 5px;">
+                <option selected>Seleccione la región</option>
+                <option value="1">Tarapacá</option>
+                <option value="2">Antofagasta</option>
+                <option value="3">Atacama</option>
+                <option value="4">Coquimbo</option>
+                <option value="5">Valparaíso</option>
+                <option value="6">Libertador General Bernardo O'Higgins</option>
+                <option value="7">Maule</option>
+                <option value="8">Bíobío</option>
+                <option value="9">La Araucanía</option>
+                <option value="10">Los Lagos</option>
+                <option value="11">Aysén del General Carlos Ibáñez del Campo</option>
+                <option value="12">Magallanes y de la Antártica Chilena</option>
+                <option value="13">Metropolitana</option>
+                <option value="14">Los Ríos</option>
+                <option value="15">Arica y Parinacota</option>
+                <option value="16">Ñuble</option>
+            </select>
+        </div>
+        <hr />
+        <div class="form-group">
+            <label for="">Seleccione el tipo de responsabilidad</label>
+            <input type="radio" aria-label="Radio button for following text input">
+            <label for="">Persona Natural</label>
+            <input type="radio" aria-label="Radio button for following text input">
+            <label for="">Empresa</label>
+        </div>
+    </form>
+</div>
